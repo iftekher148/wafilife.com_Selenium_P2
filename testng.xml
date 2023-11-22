@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/Java Automation/wafilife.com_Automation_P2">
+        <classes>
+
+            <class name="testcases.TestHomePage">
+                <methods>
+                    <include name="testHomePage"/>
+                    <include name="testHomePageClickableUrl"/>
+                </methods>
+            </class>
+            <class name="testcases.TestRegisterPage">
+                <methods>
+                    <include name="testUserRegistration"/>
+                    <include name="testRegistrationPage"/>
+                </methods>
+            </class>
+            <class name="testcases.TestLoginPage">
+                <methods>
+<!--                    <include name="testLoginWithInvalidCredentials"/>-->
+                    <include name="testLoginWithValidCredentials"/>
+                </methods>
+            </class>
+            <class name="testcases.TestCheckOutPage">
+                <methods>
+                    <include name="testUserCheckOutDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
