@@ -60,7 +60,7 @@ public class BasePage {
         wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
     }
     public void waitForElementToBeClickable(By locator){
-        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
 

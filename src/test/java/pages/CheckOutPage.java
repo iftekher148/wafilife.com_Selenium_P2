@@ -8,7 +8,7 @@ public class CheckOutPage extends BasePage{
     public String writerPageUrl = "https://www.wafilife.com/my-account/";
     public By writer = By.xpath("//span[contains(text(),'লেখক')]");
     public By scrollToThisElement = By.xpath("//a[normalize-space()='2']");
-    public By nextPage = By.xpath("//a[normalize-space()='4']");
+    public By nextPage = By.xpath("//a[contains(text(),'4')]");
     public By findWriter = By.xpath("//a[@href='/cat/books/author/']");
     public By selectWriter = By.xpath("//h3[normalize-space()='M. Mirjahan']");
     public By selectBook = By.xpath("//div[@class='product_thumbnail_wrapper']//a");
@@ -17,17 +17,18 @@ public class CheckOutPage extends BasePage{
 
 
 
+
     public String checkoutUrl = "https://www.wafilife.com/checkout";
-    public By billingName = By.xpath("//input[@id='billing_first_name']");
-    public By billingPhone = By.xpath("//input[@id='billing_phone']");
+   // public By billingName = By.xpath("//input[@id='billing_first_name']");
+   // public By billingPhone = By.xpath("//input[@id='billing_phone']");
     public By billingUrgentPhone = By.xpath("//input[@id='billing_alternative_phone']");
-    public By billingEmail = By.xpath("//input[@id='billing_email']");
+   // public By billingEmail = By.xpath("//input[@id='billing_email']");
     public  By billingZila = By.xpath("//select[@id='billing_state']");
     public By billingArea = By.xpath("//select[@id='billing_area']");
     public By billingAddress = By.xpath("//textarea[@id='billing_address_1']");
     public By billingOtherInfo = By.xpath("//textarea[@id='order_comments']");
-    public By shippingProcess = By.xpath("//input[@id='shipping_method_0_flat_rate9']");
-    public By shippingMethod = By.xpath("(//input[@id='payment_method_rocket'])[1]");
+    public By shippingProcess = By.xpath("//input[@id='shipping_method_0_flat_rate12']");
+    public By shippingMethod = By.xpath("//input[@value='bkash']");
     public By completeBillingOrder = By.xpath("//button[@id='place_order']");
 
     public By successfulOder_Msg = By.xpath("//p[contains(text(),'আপনাকে ধন্যবাদ। আপনার অর্ডার পেয়েছি।')]");

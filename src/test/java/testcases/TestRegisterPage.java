@@ -1,6 +1,7 @@
 package testcases;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.RegistrationPage;
@@ -9,9 +10,14 @@ import utilities.DriverSetUp;
 public class TestRegisterPage extends DriverSetUp {
     HomePage homePage = new HomePage();
     RegistrationPage registrationPage = new RegistrationPage();
+
+    @BeforeMethod
+    public void navigateToRegistrationPage(){
+        getDriver().get(homePage.baseUrl);
+    }
     @Test
     public void testUserRegistration(){
-        getDriver().get(homePage.baseUrl);
+       // getDriver().get(homePage.baseUrl);
         homePage.clickOnElement(homePage.loginOrRegister);
 
         registrationPage.userRegister();
