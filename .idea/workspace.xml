@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f58313c-d4bb-4128-869e-0534c510a327" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/NewPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/TestLogoutPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckOutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestCheckOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestCheckOutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestRegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestRegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +47,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.RahulShety.testMySkill">
+  <component name="RunManager" selected="TestNG.TestLogoutPage.testLogout">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="wafilife.com_Automation_P3" />
       <method v="2">
@@ -131,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLoginPage.testLoginWithValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLogoutPage.testLogout" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com_Automation_P3" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +134,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestLoginPage" />
-      <option name="METHOD_NAME" value="testLoginWithValidCredentials" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestLogoutPage" />
+      <option name="METHOD_NAME" value="testLogout" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -151,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestLogoutPage.testLogout" />
+        <item itemvalue="TestNG.F:/Java Automation/wafilife.com_Automation_P2/testng.xml" />
         <item itemvalue="TestNG.RahulShety.testMySkill" />
         <item itemvalue="TestNG.RahulShety.testRadioButton" />
         <item itemvalue="TestNG.TestCheckOutPage.testUserCheckOutDetails" />
-        <item itemvalue="TestNG.F:/Java Automation/wafilife.com_Automation_P2/testng.xml" />
-        <item itemvalue="TestNG.TestLoginPage.testLoginWithValidCredentials" />
       </list>
     </recent_temporary>
   </component>

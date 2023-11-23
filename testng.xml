@@ -4,18 +4,18 @@
     <test verbose="2" preserve-order="true" name="F:/Java Automation/wafilife.com_Automation_P2">
         <classes>
 
-<!--            <class name="testcases.TestHomePage">-->
-<!--                <methods>-->
-<!--                    <include name="testHomePage"/>-->
-<!--                    <include name="testHomePageClickableUrl"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="testcases.TestRegisterPage">-->
-<!--                <methods>-->
-<!--                    <include name="testUserRegistration"/>-->
-<!--                    <include name="testRegistrationPage"/>-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name="testcases.TestHomePage">
+                <methods>
+                    <include name="testHomePage"/>
+                    <include name="testHomePageClickableUrl"/>
+                </methods>
+            </class>
+            <class name="testcases.TestRegisterPage">
+                <methods>
+                    <include name="testUserRegistration"/>
+                    <include name="testRegistrationPage"/>
+                </methods>
+            </class>
             <class name="testcases.TestLoginPage">
                 <methods>
 <!--                    <include name="testLoginWithInvalidCredentials"/>-->

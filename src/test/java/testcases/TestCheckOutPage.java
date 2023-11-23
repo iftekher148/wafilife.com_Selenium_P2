@@ -12,11 +12,11 @@ public class TestCheckOutPage extends DriverSetUp {
     CheckOutPage checkOutPage = new CheckOutPage();
     LoginPage loginPage = new LoginPage();
 
-    @BeforeMethod
-    public void userLoginWithValid(){
-        getDriver().get(loginPage.loginUrl);
-        loginPage.userLogin("polokhack1234@gmail.com","12345678");
-    }
+//    @BeforeMethod
+//    public void userLoginWithValid(){
+//        getDriver().get(loginPage.loginUrl);
+//        loginPage.userLogin("polokhack1234@gmail.com","12345678");
+//    }
 
 
     @Test
