@@ -28,7 +28,7 @@ public class CheckOutPage extends BasePage{
     public By billingAddress = By.xpath("//textarea[@id='billing_address_1']");
     public By billingOtherInfo = By.xpath("//textarea[@id='order_comments']");
     public By shippingProcess = By.xpath("//input[@id='shipping_method_0_flat_rate12']");
-    public By shippingMethod = By.xpath("//input[@value='bkash']");
+    public By shippingMethod = By.xpath("//input[@id='payment_method_nagad']");
     public By completeBillingOrder = By.xpath("//button[@id='place_order']");
 
     public By successfulOder_Msg = By.xpath("//p[contains(text(),'আপনাকে ধন্যবাদ। আপনার অর্ডার পেয়েছি।')]");
@@ -48,7 +48,7 @@ public class CheckOutPage extends BasePage{
 
     }
 
-    public void userBilling() {
+    public <StaleElementReferenceException> void userBilling() {
        // writeOnElement(billingName,"Polok Khan");
         //writeOnElement(billingPhone,"01521212121");
         writeOnElement(billingUrgentPhone,"01621212121");

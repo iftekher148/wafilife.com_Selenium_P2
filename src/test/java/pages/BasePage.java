@@ -18,8 +18,13 @@ public class BasePage {
         return getDriver().findElement(locator);
     }
     public void clickOnElement(By locator){
-        waitForElementToBeClickable(locator);
-        getElement(locator).click();
+        try{
+            waitForElementToBeClickable(locator);
+            getElement(locator).click();
+        }catch (Exception e) {
+           // waitForElementToBeClickable(locator);
+            getElement(locator).click();
+        }
     }
 
     public void writeOnElement(By locator, String inputText){
