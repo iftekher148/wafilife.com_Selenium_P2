@@ -37,7 +37,8 @@ I have use https://www.wafilife.com/site for my automation testing.
 9. Log out
 
 
-
+## Vedio
+https://www.loom.com/share/2771c6d4828b47f0aff2722bc26466ae?sid=ecdfee1b-21ef-4742-955e-a09cb5fb20f8
 
 
 ## Report
